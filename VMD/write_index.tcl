@@ -5,6 +5,11 @@
 #
 # Tcl script to write a gromacs index file using a selection of atoms
 #
+# Usage:
+#        source write_index.tcl
+#        set sel_lip [atomselect  top "same resid as name PO4 and x < 90 and y < 90"]
+#        write_ndx $sel_lip System index2.ndx
+#
 # dlab.cl
 #
 
