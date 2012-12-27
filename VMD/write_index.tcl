@@ -11,10 +11,10 @@
 proc write_ndx { sel_ndx name_group fname} {
 
 set file_ndx [open "$fname" w]
-       puts "\n Writing selection in $fname ..." 
+       puts "\nWriting selection in $fname ..." 
        puts $file_ndx "\[$name_group\]"
        foreach serial [$sel_ndx get serial] {
-               puts $fndx "$serial"
+               puts $file_ndx "$serial"
        }
        close $file_ndx
        puts "Done!\n\n"
