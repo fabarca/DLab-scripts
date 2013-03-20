@@ -3,7 +3,7 @@
 #
 # Fernando Abarca, December 2012
 #
-# Tcl script to write a gromacs index file using a selection of atoms
+# Tcl script to write a gromacs index file selecting atoms using VMD
 #
 # Usage:
 #        source write_index.tcl
